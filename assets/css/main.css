@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+
+    overflow: hidden;
+}
+
+body > * {
+    text-align: center;
+    font-family: 'Courgette', cursive;
+
+    width: 98vw;
+}
