@@ -13,7 +13,7 @@ body {
     overflow: hidden;
 }
 
-body > h1, body > h2 {
+body > h1, body > h2{
     position: relative;
     z-index: 3;
     text-align: center;
@@ -37,4 +37,9 @@ body > img {
     width: 100vw;
 
     filter: grayscale(100);
+}
+
+.twitter-share-button {
+    z-index: 3;
+    position: relative;
 }
