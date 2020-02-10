@@ -13,9 +13,27 @@ body {
     overflow: hidden;
 }
 
-body > * {
+body > h1, body > h2 {
+    position: relative;
+    z-index: 3;
     text-align: center;
     font-family: 'Courgette', cursive;
 
+    color: white;
+
     width: 98vw;
+}
+
+body > img {
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    object-fit: cover;
+    height: 100vh;
+
+    filter: grayscale(100);
 }
