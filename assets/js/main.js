@@ -7,8 +7,6 @@ req.open('GET', 'https://type.fit/api/quotes');
 req.addEventListener('load', (e) => {
     let quotes = JSON.parse(e.target.responseText);
     let quote = quotes[Math.round(Math.random() * quotes.length)];
-    console.log({quotes});
-    console.log({quote});
     
     quoteSpace.innerHTML = owoify(quote.text);
     authorSpace.innerHTML = quote.author;
